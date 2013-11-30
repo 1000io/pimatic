@@ -15,14 +15,16 @@
     "README.md",
     "LICENSE"
   ],
-  "version": "0.1.2",
+  "version": "0.1.2-tty",
   "homepage": "http://github.com/sweetpi/sweetpi-server",
   "repository": {
     "type": "git",
     "url": "git://github.com/sweetpi/sweetpi-server.git"
   },
   "preferGlobal": true,
-  "bin" : { "sweetpi-server" : "./main.js" },
+  "bin": {
+    "sweetpi-server": "./main.js"
+  },
   "dependencies": {
     "coffee-script": "1.6.*",
     "express": "3.0.*",
